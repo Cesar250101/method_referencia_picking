@@ -21,6 +21,6 @@ class Pedidos(models.Model):
                         "fecha_documento": r.fecha_documento,
                         "stock_picking_id":picking_id,
                     }      
-            self.env['stock.picking.referencias'].create(vals)    
+                self.env['stock.picking.referencias'].create(vals)    
                         
 
